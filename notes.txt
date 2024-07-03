@@ -16,3 +16,11 @@
 # -gt = greater than
 # -lt = less than
 # fi
+
+
+myfile="mobifile.sh"
+
+while [ -f $myfile ]
+do 
+   echo "The file '$myfile' exists"
+done
