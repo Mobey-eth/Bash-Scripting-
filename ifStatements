@@ -1,0 +1,17 @@
+#!/bin/bash
+
+file="mobi.sh"
+now=$(date)
+
+if [ -f $file ]
+then 
+    echo "The file exists."
+else
+    echo "The file does not exist."
+    touch $file 
+    echo "#!/bin/bash" > $file
+    cat $file
+    echo "The file has been created at time $now"
+fi
+
+

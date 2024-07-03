@@ -1,0 +1,18 @@
+# mynum=200
+
+# if [ $mynum -gt 200 ]
+# then 
+#     echo "The condition is true."
+# else
+#     echo "The condition is false."
+# fi
+
+# if [ ! $mynum -eq 300 ]
+# then
+#     echo "The variable doesn't equal 200"
+
+# -eq = equal to
+# -ne = not equal to
+# -gt = greater than
+# -lt = less than
+# fi
