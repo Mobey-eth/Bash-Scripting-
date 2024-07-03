@@ -1,12 +1,12 @@
 #!/bin/bash
 
-package="htop"
+package="notexist"
 
 
 if command -v $package
 then
     echo "The package '$package' is installed."
-    echo "Uninstalling $package..."
+    echo "Uninstalling $package ..."
     brew uninstall $package
     brew cleanup
 
@@ -16,17 +16,19 @@ else
     echo "The package $package is not installed."
     echo "Attempting to install $package."
 
-    brew install htop
+    brew install $package
     
     if [ $? -eq 0 ]
     then
         echo "The package $package has been installed."
+        which $package
+        sudo $package
     else
-        echo "The package $package could not be installed."
+        echo "The package '$package' could not be installed."
     fi
 
     echo "The exit code for this script is: $?"
-    sudo $package
+    
 fi
 
 
