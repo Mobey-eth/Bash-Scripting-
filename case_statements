@@ -1,0 +1,40 @@
+#!/bin/bash
+
+finished=0
+
+while [ $finished -ne 1 ]
+do 
+    echo "What's your favorite linux distro?"
+    echo "1 - Arch "
+    echo "2 - CentOs "
+    echo "3 - Debian "
+    echo "4 - MacOs "
+    echo "5 - Ubuntu "
+    echo "6 - ParrotOs"
+    echo "7 - Something else"
+    echo "8 - Exit script"
+
+    read userAnswer;
+
+    case $userAnswer in 
+        1) echo "Arch is a rollig release";;
+        2) echo "CentOs is popular on servers";;
+        3) echo " Debian for community bois";;
+        4) echo " MacOS for chads";;
+        5) echo "Ubuntu for servers and community";;
+        6) echo "ParrotOs for security bois";;
+        7) echo "There are many distributions out there";;
+        8) echo "Thanks for participating" && finished=$(($finished+1));;
+        *) echo "Invalid user input"
+
+    esac
+
+    if [ $userAnswer -ne 8 ]
+    then
+        sleep 0.3 && echo "Thanks for using this script"
+        sleep 3
+        echo "New user please enter"
+        sleep 1
+    fi
+done
+

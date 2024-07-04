@@ -1,2 +1,89 @@
 Already up-to-date.
 Already up-to-date.
+Already up-to-date.
+==> Upgrading 4 outdated packages:
+pandoc 3.1.12.3 -> 3.2.1
+gettext 0.22.4 -> 0.22.5
+pcre2 10.42 -> 10.44
+git 2.43.0 -> 2.45.2
+==> Downloading https://ghcr.io/v2/homebrew/core/pandoc/manifests/3.2.1
+==> Fetching pandoc
+==> Downloading https://ghcr.io/v2/homebrew/core/pandoc/blobs/sha256:71aa8f94344ca2225f7283c0cdd071a7092864311e7eecda46837b03f8ebad70
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:4b5b6cb0692b4606b9220fcbc9da3ab546234348dc87ef8033830e22c4c7bdb1
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.44
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:78fe8885f70cc1ec83eefd678e1dfc3b341aedf4b44132327da98300c5e04cdf
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.45.2
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:46ac8df4305f4c039e8cb628c8196b93b245b111118cce3d6277f1f34a01da55
+==> Upgrading pandoc
+  3.1.12.3 -> 3.2.1 
+==> Pouring pandoc--3.2.1.arm64_sonoma.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /opt/homebrew/etc/bash_completion.d
+==> Summary
+🍺  /opt/homebrew/Cellar/pandoc/3.2.1: 11 files, 257.4MB
+==> Running `brew cleanup pandoc`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/pandoc/3.1.12.3... (10 files, 255.7MB)
+Removing: /Users/mac/Library/Caches/Homebrew/pandoc_bottle_manifest--3.1.12.3... (7.4KB)
+==> Upgrading gettext
+  0.22.4 -> 0.22.5 
+==> Pouring gettext--0.22.5.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.22.5: 2,044 files, 24.4MB
+==> Running `brew cleanup gettext`...
+Removing: /opt/homebrew/Cellar/gettext/0.22.4... (2,042 files, 24.3MB)
+==> Upgrading pcre2
+  10.42 -> 10.44 
+==> Pouring pcre2--10.44.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.44: 237 files, 6.3MB
+==> Running `brew cleanup pcre2`...
+Removing: /opt/homebrew/Cellar/pcre2/10.42... (230 files, 6.2MB)
+==> Upgrading git
+  2.43.0 -> 2.45.2 
+==> Pouring git--2.45.2.arm64_sonoma.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+Bash completion has been installed to:
+  /opt/homebrew/etc/bash_completion.d
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.45.2: 1,664 files, 51.5MB
+==> Running `brew cleanup git`...
+Removing: /opt/homebrew/Cellar/git/2.43.0... (1,638 files, 50.5MB)
+==> Casks with 'auto_updates true' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
+==> Upgrading 1 outdated package:
+ngrok 3.11.0 -> 3.12.0,d2tzJ5RRFo1,a
+==> Upgrading ngrok
+==> Caveats
+To install shell completions, add this to your profile:
+  if command -v ngrok &>/dev/null; then
+    eval "$(ngrok completion)"
+  fi
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/b2eef25c4b8dcb3b06be3cb108fa3f94e48069f3/Casks/n/ngrok.rb
+==> Downloading https://bin.equinox.io/a/d2tzJ5RRFo1/ngrok-v3-3.12.0-stable-darwin-arm64.zip
+==> Unlinking Binary '/opt/homebrew/bin/ngrok'
+==> Linking Binary 'ngrok' to '/opt/homebrew/bin/ngrok'
+==> Purging files for version 3.11.0 of Cask ngrok
+🍺  ngrok was successfully upgraded!
+==> Caveats
+==> pandoc
+Bash completion has been installed to:
+  /opt/homebrew/etc/bash_completion.d
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+Bash completion has been installed to:
+  /opt/homebrew/etc/bash_completion.d
+==> ngrok
+To install shell completions, add this to your profile:
+  if command -v ngrok &>/dev/null; then
+    eval "$(ngrok completion)"
+  fi
