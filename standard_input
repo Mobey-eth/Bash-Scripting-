@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "User input your fucken name: "
+
+read username
+
+echo "User name is - $username" 
