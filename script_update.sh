@@ -1,6 +1,7 @@
 
 #!/bin/bash
 
+#functions
 check_exit_status () {
     if [ $? -eq 0 ]
     then 

@@ -97,3 +97,69 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 htop requires root privileges to correctly display all running processes,
 so you will need to run `sudo htop`.
 You should be certain that you trust any software you grant root privileges.
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.3.0
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/b53173226c69a7a442f112e5a6c99613b5845b420c02d27892ba5af4f67e6825--htop-3.3.0.bottle_manifest.json
+==> Fetching dependencies for htop: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+==> Fetching ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:ee5253473badfa0701deac8e9973a7358c761dd287f0d748f753130a7a6d2705
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/47311282fa5fc724f90fcf704ef463a5950ef45dd476d5924b77db7efd45babe--ncurses--6.5.arm64_sonoma.bottle.tar.gz
+==> Fetching htop
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:a07989af65c77dbfb28b07b8faec12d3760831c360e0caa6a32a58eff0e8fd65
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/4ae2089753999d42c7bed5de5736de5d86fe7da5ebdcd21b362abc7472cc88c6--htop--3.3.0.arm64_sonoma.bottle.tar.gz
+==> Installing dependencies for htop: ncurses
+==> Installing htop dependency: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+==> Pouring ncurses--6.5.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncurses/6.5: 4,052 files, 9.9MB
+==> Installing htop
+==> Pouring htop--3.3.0.arm64_sonoma.bottle.tar.gz
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /opt/homebrew/Cellar/htop/3.3.0: 13 files, 376.1KB
+==> Running `brew cleanup htop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> htop
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.3.0
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/b53173226c69a7a442f112e5a6c99613b5845b420c02d27892ba5af4f67e6825--htop-3.3.0.bottle_manifest.json
+==> Fetching dependencies for htop: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+==> Fetching ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:ee5253473badfa0701deac8e9973a7358c761dd287f0d748f753130a7a6d2705
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/47311282fa5fc724f90fcf704ef463a5950ef45dd476d5924b77db7efd45babe--ncurses--6.5.arm64_sonoma.bottle.tar.gz
+==> Fetching htop
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:a07989af65c77dbfb28b07b8faec12d3760831c360e0caa6a32a58eff0e8fd65
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/4ae2089753999d42c7bed5de5736de5d86fe7da5ebdcd21b362abc7472cc88c6--htop--3.3.0.arm64_sonoma.bottle.tar.gz
+==> Installing dependencies for htop: ncurses
+==> Installing htop dependency: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+Already downloaded: /Users/mac/Library/Caches/Homebrew/downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+==> Pouring ncurses--6.5.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncurses/6.5: 4,052 files, 9.9MB
+==> Installing htop
+==> Pouring htop--3.3.0.arm64_sonoma.bottle.tar.gz
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /opt/homebrew/Cellar/htop/3.3.0: 13 files, 376.1KB
+==> Running `brew cleanup htop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> htop
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
